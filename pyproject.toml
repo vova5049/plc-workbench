@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fx3u-toolkit"
+version = "0.1.0.dev3"
+description = "Compile, inspect and (carefully) deploy Mitsubishi FX3U ladder programs over the built-in programming port, without GX Works2"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "vova5049", email = "13394003+vova5049@users.noreply.github.com"}]
+maintainers = [{name = "vova5049", email = "13394003+vova5049@users.noreply.github.com"}]
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Topic :: System :: Hardware",
+  "Intended Audience :: Manufacturing",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+fx3u = "fx3u.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+fx3u = ["capabilities.json", "experimental_profile.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

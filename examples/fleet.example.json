@@ -1,0 +1,4 @@
+[
+  {"name": "PLC1", "port": "COM6"},
+  {"name": "PLC2", "port": "COM7"}
+]

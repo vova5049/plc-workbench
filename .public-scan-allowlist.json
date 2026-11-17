@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "path": "README.md",
+      "line_sha256": "cebae19b6e939a6cf54ab3c54958a097c9287231f30dbeff5288298840da47b5",
+      "reason": "Approved public project author and maintainer identity."
+    },
+    {
+      "path": "LICENSE",
+      "line_sha256": "fa90b2f1ab63b9599f1d4f1f01d1ce0851c023d4505df56299642b1979b99487",
+      "reason": "Approved public project author and maintainer identity."
+    },
+    {
+      "path": "pyproject.toml",
+      "line_sha256": "1445899358260974ed3c4fa57e384d3ef9dd9d4b5b9c36e4633e393e058e6ae9",
+      "reason": "Approved public project author and maintainer identity."
+    },
+    {
+      "path": "pyproject.toml",
+      "line_sha256": "e2b3173538d53ff4acb0354bd6912e22fd8a630686e020b8ca29b49bca71e69d",
+      "reason": "Approved public project author and maintainer identity."
+    },
+    {
+      "path": "git:author_name",
+      "line_sha256": "a9ecc5720e769c68cd5d2f1bf84f5fffbdf68eaad3939cb97f9eda7467ab0c1e",
+      "reason": "Approved public Git identity field; commit messages remain excluded."
+    },
+    {
+      "path": "git:author_email",
+      "line_sha256": "672cebc99c48f63c5b6e73aa3f62063d83f409a58abad7bb50af365970cdb76b",
+      "reason": "Approved public Git identity field; commit messages remain excluded."
+    },
+    {
+      "path": "git:committer_name",
+      "line_sha256": "a9ecc5720e769c68cd5d2f1bf84f5fffbdf68eaad3939cb97f9eda7467ab0c1e",
+      "reason": "Approved public Git identity field; commit messages remain excluded."
+    },
+    {
+      "path": "git:committer_email",
+      "line_sha256": "672cebc99c48f63c5b6e73aa3f62063d83f409a58abad7bb50af365970cdb76b",
+      "reason": "Approved public Git identity field; commit messages remain excluded."
+    },
+    {
+      "path": "README.pl.md",
+      "line_sha256": "8c5705f9e2648b31e14f2882cf0281011d4ecbbb77fc3a1cb51e0bd8f696d787",
+      "reason": "Approved public project author and maintainer identity in the Polish README."
+    }
+  ]
+}

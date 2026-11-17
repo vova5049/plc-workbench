@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+out/
+# Runtime evidence and local credentials must not enter public source history.
+logs/
+backup/
+backups/
+dumps/
+*.jsonl
+*.bin
+.env
+.env.*
+*.env
+# Add exceptions only for specific reviewed synthetic fixture files, never a wildcard.
+# IL, Python sources and the lighting case study remain tracked normally.
